@@ -27,4 +27,8 @@ export class GeocercaGoogleComponent {
     }
     
   }
+  limpiar(){
+    this.markerPositions = [];
+    this.paths = [];
+  }
 }
